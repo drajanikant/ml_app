@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f1de64c-4db7-4d8b-bd1c-f0ae42402ff0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/node/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/server.js" afterDir="false" />
-    </list>
+    <list default="true" id="4f1de64c-4db7-4d8b-bd1c-f0ae42402ff0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +12,7 @@
     <session id="-877210457">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -25,6 +23,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
+          <entry key="jpeg" value="1" />
           <entry key="js" value="1" />
           <entry key="json" value="1" />
           <entry key="py" value="1" />
@@ -33,6 +32,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
@@ -73,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/node/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1477">
-              <caret line="156" column="36" selection-start-line="156" selection-start-column="36" selection-end-line="156" selection-end-column="36" />
+            <state relative-caret-position="4335">
+              <caret line="289" selection-start-line="289" selection-end-line="289" />
             </state>
           </provider>
         </entry>
@@ -163,16 +163,6 @@
               <item name="ml_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="ml_app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ml_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ml_app" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ml_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ml_app" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -183,7 +173,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538555482333" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538557813645" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.9.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -236,16 +226,15 @@
       <workItem from="1538551949797" duration="428000" />
       <workItem from="1538552516624" duration="727000" />
       <workItem from="1538555298852" duration="156000" />
-      <workItem from="1538557538401" duration="51000" />
+      <workItem from="1538557538401" duration="365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1362000" />
+    <option name="totallyTimeSpent" value="1676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="795" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -304,10 +293,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python/resources/images/Abc/image74.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/node/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1477">
-          <caret line="156" column="36" selection-start-line="156" selection-start-column="36" selection-end-line="156" selection-end-column="36" />
+        <state relative-caret-position="4335">
+          <caret line="289" selection-start-line="289" selection-end-line="289" />
         </state>
       </provider>
     </entry>
