@@ -1,0 +1,261 @@
+/* display setting of the nav bar */
+.navbar-brand > img {
+    display: block;
+    height: 3em;
+}
+
+.navbar-default {
+    height: 80px;
+    border-radius: unset !important;
+    /*background-color: rgba(187, 191, 210, 0.81);*/
+    background-color: #151f23b4;
+}
+
+/*.footer{
+
+    color: #f9f9f9;
+    padding: 15px;
+
+}*/
+element.style {
+    height: 20px;
+}
+
+/*REGISTRATION FORM AND CAMERA PANEL*/
+.container {
+    background-color: transparent;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-top: 15px;
+}
+
+.footer {
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+.dash_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    /*background-color: #f5f5f5;*/
+    bottom: 0;
+}
+
+.dash_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    /*background-color: #f5f5f5;*/
+    bottom: 0;
+}
+
+.alert {
+    width: 420px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+/*Submit button css*/
+.btn {
+    display: inline-block;
+    padding: 13px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 0px solid transparent;
+    border-radius: 0px;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #b7b9bb;
+    border-color: #ccc;
+}
+
+group-lg > .input-group-btn > .btn {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 0px;
+}
+
+/*form css of registration page*/
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 0px solid #e5e5e5;
+}
+
+.h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: whitesmoke;
+}
+
+body {
+    background-repeat: no-repeat;
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+
+    background-size: cover;
+}
+
+.form-horizontal .form-group {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.form-horizontal {
+    background-color: rgba(74, 79, 121, 0.44);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    background-color: #15242d;
+    height: 100%;
+    height: auto;
+    min-width: 100%;
+    width: auto;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Flash class and keyframe animation */
+.flashit {
+    color: rgb(248, 246, 248);
+    font-size: 70px;
+}
+
+.flashit2 {
+    font-size: 40px;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Pulse class and keyframe animation */
+.pulseit {
+    -webkit-animation: pulse linear .5s infinite;
+    animation: pulse linear .5s infinite;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        width: 200px;
+    }
+    50% {
+        width: 340px;
+    }
+    100% {
+        width: 200px;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        width: 200px;
+    }
+    50% {
+        width: 340px;
+    }
+    100% {
+        width: 200px;
+    }
+}
+
+/*text area*/
+textarea.form-control {
+    height: 365px;
+    width: 600px;
+}
+
+/*Navigation bar*/
+.nav .navbar-nav .navbar-right {
+    margin: 1em !important;
+}
+
+.navbar-right li {
+    border: 2px solid white;
+    margin-right: 1em;
+    border-radius: 0.5em;
+
+}
+
+.navbar-right li:hover {
+    border: 2px solid white;
+    margin-right: 1em;
+    border-radius: 0.5em;
+}
+
+.navbar-right li a {
+    color: white !important;
+}
+
+@media (min-width: 768px) {
+    .navbar-right {
+        float: right !important;
+        margin: 1em !important;
+    }
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Registration</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!--Custom scripts-->
+    <style type="text/css">
+        #success_message {
+            display: none;
+        }
+    </style>
+</head>
+
+<body background="images/background_2.gif">
+<!--Navigation bar-->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <img alt="Prodevans Technologies LLP" src="images/pd_logo.png">
+            </a>
+        </div>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="/"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="/login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<!--Main container-->
+<div class="container">
+
+    <div class="alert alert-success" hidden id="success_message">
+        <strong>Success!</strong> Indicates a successful or positive action.
+    </div>
+
+    <div class="col-md-6">
+
+        <div class="well form-horizontal" id="contact_form">
+            <fieldset>
+
+                <!-- Form Name -->
+                <legend>
+                    <center>
+                        <h2 color="white">
+                            <b>Registration</b>
+                        </h2>
+                    </center>
+                </legend>
+                <br>
+
+                <!-- Text input-->
+
+                <div class="form-group">
+                    <!-- <label class="col-md-4 control-label">Full Name</label> -->
+
+                        <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="glyphicon glyphicon-user"></i>
+                                </span>
+                            <input name="name" id="name" placeholder="Full Name" class="form-control" type="text">
+                        </div>
+                    </div>
+
+                <!--Orginization -->
+                <div class="form-group">
+                    <!-- <label class="col-md-4 control-label">Organization</label>  -->
+
+                         <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="glyphicon glyphicon-globe"></i>
+                                </span>
+                            <input name="Organization" id="Organization" placeholder="Organization" class="form-control"
+                                   type="text">
+                        </div>
+                    </div>
+
+
+                <!--Designation -->
+                <div class="form-group">
+                    <!-- <label class="col-md-4 control-label">Designation</label>   -->
+
+                         <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="glyphicon glyphicon-briefcase"></i>
+                                </span>
+                            <input name="designation" id="designation" placeholder="Designation" class="form-control"
+                                   type="text">
+                        </div>
+                    </div>
+
+
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <!--  <label class="col-md-4 control-label">E-Mail</label>    -->
+
+                         <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="glyphicon glyphicon-envelope"></i>
+                                </span>
+                            <input name="email" id="email" placeholder="E-Mail " class="form-control" type="text">
+                        </div>
+                    </div>
+
+
+
+                <!-- Contact No-->
+
+                <div class="form-group">
+                    <!-- <label class="col-md-4 control-label">Contact No.</label>   -->
+
+                         <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="glyphicon glyphicon-earphone"></i>
+                                </span>
+                            <input name="contact_no" id="contact_no" placeholder="(+91)" class="form-control" type="text">
+                        </div>
+
+                </div>
+
+                <!--Dropdown-->
+                <div class="form-group">
+                    <!--   <label class="col-md-4 control-label">Ask me more:</label>  -->
+
+                          <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="glyphicon glyphicon-list"></i>
+                                    </span>
+                            <select class="form-control" id="sel1">
+                                <option>Ask me more</option>
+                                <option>DevOps Assessment Tool</option>
+                                <option>PD Cloudex</option>
+                                <option>Iventura</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+
+
+                <!-- Success message -->
+                <div class="alert alert-success" role="alert" id="success_message">Success
+                    <i class="glyphicon glyphicon-thumbs-up"></i>
+                    Success!.
+                </div>
+
+                <!-- Button -->
+                <div class="form-group">
+                    <label class="col-md-2 control-label"></label>
+                    <div class="col-md-8">
+                        <br>
+                        <button type="submit" id="snap" class="btn btn-warning">REGISTER
+                            <span class="glyphicon glyphicon-send"></span>
+                        </button>
+                    </div>
+                </div>
+
+            </fieldset>
+        </div>
+    </div>
+    <!--Face detection div-->
+    <div class="col-md-6">
+        <video id="video" autoplay width="640px" height="480px"></video>
+
+        <canvas hidden id="canvas" width="640px" height="480px"></canvas>
+    </div>
+
+</div><!-- /.container -->
+
+<!-- Footer -->
+<div class="footer">
+    <div id="footer" class="container-fluid footer-block" style="background-color: #1a1a1a;color: #f9f9f9;">
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://www.prodevans.com">www.prodevans.com</a>
+        </div>
+    </div>
+</div>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- CDN for the socket.io integration with js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+
+    <!-- App.js file to execute commands -->
+    <script src='js/register.js'></script>
+
+</body>
+
+</html>
