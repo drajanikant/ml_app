@@ -154,7 +154,7 @@ app.get('/:user', (req, res) => {
 
             console.log("Image data found : ", user_image_raw);
 
-            fs.writeFile('resources/images/' + user_name + '/' + image_name + ".jpeg", user_image, function (err) {
+            fs.writeFile('../python/resources/images/' + user_name + '/' + image_name + ".jpeg", user_image, function (err) {
                 if (err) console.log(err);
             });
             // console.log("==================================This is the images meta deta=============================");
